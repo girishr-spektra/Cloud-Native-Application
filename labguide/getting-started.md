@@ -2,9 +2,11 @@
 
 ### Overall Estimated Duration: 4 Hours
 
-## Overview
+## Lab Scenario
 
 Contoso Traders (ContosoTraders) provides online retail website services tailored to the electronics community. They are refactoring their application to run as a Docker application. They want to implement a proof of concept that will help them get familiar with the development process, the lifecycle of deployment, and the critical aspects of the hosting environment.
+
+## Lab Overview
 
 In this hands-on lab, you will assist in containerising their application by building Docker images and pushing them to Azure Container Registry (ACR) for secure access. You will also migrate an on-premises MongoDB database from an Azure Linux VM to Azure Cosmos DB using Azure Database Migration Service. Finally, you will deploy the application to Azure Kubernetes Service (AKS), integrating Key Vault Secrets and exploring different deployment strategies. By the end of this lab, you will gain practical experience in containerization, database migration, and Kubernetes-based deployment.
 
@@ -66,7 +68,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![Explore Lab Resources](media/14052025(1).png)
+![Explore Lab Resources](media/env.png)
  
    > You will see the **DeploymentID** value on the **Environment** tab, use it wherever you see SUFFIX or DeploymentID in lab steps.
 
