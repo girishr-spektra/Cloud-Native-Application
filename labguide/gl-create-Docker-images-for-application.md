@@ -226,9 +226,6 @@ In this task, you will be building the Docker images to containerize the applica
 1. You should be able to see the Docker image getting pushed to ACR as shown in the screenshot below. 
     
     ![](media/cdn-nat-lab3-e31-g23.png)
-    
->**Congratulations** on completing the task! Now, it's time to validate it.
-<validation step="40147393-0fa6-4453-a6eb-a1a7bc43f387" />
 
 ## Summary
 
