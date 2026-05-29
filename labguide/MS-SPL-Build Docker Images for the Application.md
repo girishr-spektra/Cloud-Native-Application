@@ -2,6 +2,12 @@
   
 ### Estimated Duration: 75 Minutes
 
+## Scenario
+
+Contoso Traders is beginning its cloud-native transformation by containerizing its retail application using Docker. This process enables consistent application deployment and prepares the workloads for Kubernetes-based hosting on Azure. 
+
+By the end of the exercise, you will gain hands-on experience with Docker image creation and container registry management.
+
 ## Overview
 
 In this exercise, you will learn how to Containerize the Contoso traders application using Docker images. Containerized applications are applications that run in isolated runtime environments called containers. A Docker image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Also, you will be pushing the created Docker images to the Azure Container Registry.

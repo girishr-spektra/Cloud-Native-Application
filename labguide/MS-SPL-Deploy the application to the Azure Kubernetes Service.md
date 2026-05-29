@@ -2,6 +2,12 @@
    
 ### Estimated Duration: 90 Minutes
 
+## Scenario
+
+Contoso Traders is deploying its containerized retail application to Azure Kubernetes Service (AKS) to achieve scalable and managed application hosting. You will connect to the AKS cluster, configure Kubernetes secrets, and deploy application services and workloads using both the Azure Portal and kubectl commands. Azure Container Registry (ACR) and Azure Key Vault will be integrated to securely manage container images and application secrets. 
+
+By the end of the lab, the application will be successfully running on AKS.
+
 ## Overview
 
 In this exercise, you will be deploying your containerized web application to AKS (Azure Kubernetes Service) with the help of Key Vault secrets and ACR, where you have stored your containerized web application images. Also, you will be exploring two ways to deploy the app to AKS. 

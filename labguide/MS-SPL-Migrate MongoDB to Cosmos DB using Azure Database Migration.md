@@ -2,6 +2,12 @@
   
 ### Estimated Duration: 75 Minutes
 
+## Scenario
+
+Contoso Traders is migrating its on-premises MongoDB database hosted on a Linux VM to Azure Cosmos DB to improve scalability and reliability. This hands-on activity demonstrates how to securely transfer and validate application data in a cloud-native Azure environment.
+
+By the end of the exercise, the migrated data will be available in Azure Cosmos DB for application integration.
+
 ## Overview
 
 In this exercise, you will be migrating your on-premises MongoDB database hosted on an Azure Linux VM to Azure Cosmos DB using Azure Database Migration. Azure Database Migration Service is a tool that helps you simplify, guide, and automate your database migration to Azure.
@@ -88,17 +94,11 @@ In this task, you will create a Migration project within Azure Database Migratio
 
       ![](media/cloudnative-3.jpg)
 
-1. Provide the following details under **New Database** and then click on **OK (5)**.
+1. Provide the following details under **New Database** and then click on **OK (2)**.
 
    - Provide name as `contentdb` **(1)** for **Database id**
 
-   - Select the **Provision throughput** checkbox **(2)**
-
-   - Select **Databse throughput (400 - unlimited RU/s)** as **Manual** **(3)** 
-
-   - Provide the **Database Required RU/s** value to `400` **(4)**
-
-     ![](media/cloudnative-v1-6.png)
+     ![](media/ndb.png)
 
 1. Navigate back to the **ContosoTraders-<inject key="DeploymentID" enableCopy="false" />** resource group, search for **contosotraders<inject key="DeploymentID" enableCopy="false" /> (1)** and then select **contosotraders<inject key="DeploymentID" enableCopy="false" /> (2)** Azure Database Migration Service (Classic).
 
